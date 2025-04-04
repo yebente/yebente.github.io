@@ -158,6 +158,34 @@ nav {
     gap: 1rem;
 }
 
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 1rem;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    border: 6px solid #ffdd57;
+    background-clip: padding-box;
+    background-color: #1e1e2e;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+}
+
+.hero-image img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+}
+
 .call-to-action {
     padding: 1rem 2rem;
     background-color: var(--primary-color);
