@@ -149,11 +149,11 @@ You can reach out through any of the following:
 ## 📸 **Screenshots**
 Replace the following placeholders with real images:
 
-- ![home image](images/home.png)
-- ![about](images/about.png)
-- ![services](images/services.png)
-- ![portfolio](images/portfolio.png)
-- ![contact](images/contact.png)
+- ![home image](images/homeimage.png)
+- ![about](images/aboutimage.png)
+- ![services](images/servicesimage.png)
+- ![portfolio](images/portfolioimage.png)
+- ![contact](images/contactimage.png)
 
 📸 Screenshots help users preview each section before visiting.
 
@@ -169,4 +169,4 @@ Feel free to fork this repo, open issues, or contribute suggestions via pull req
 
 ---
 
-Made with ❤️ by **Stan**
+Made with ❤️ by <a href ="https://www.linkedin.com/in/stanmobitech/">**Stan**</a>
