@@ -149,11 +149,11 @@ You can reach out through any of the following:
 ## 📸 **Screenshots**
 Replace the following placeholders with real images:
 
-- '![home image](PasteYourImageURLHere)'
-- '![about](PasteYourImageURLHere)'
-- '![services](PasteYourImageURLHere)'
-- '![portfolio](PasteYourImageURLHere)'
-- '![contact](PasteYourImageURLHere)'
+- `images/readme/home.png`
+- `images/readme/about.png`
+- `images/readme/services.png`
+- `images/readme/portfolio.png`
+- `images/readme/contact.png`
 
 📸 Screenshots help users preview each section before visiting.
 
@@ -169,4 +169,4 @@ Feel free to fork this repo, open issues, or contribute suggestions via pull req
 
 ---
 
-Made with ❤️ by <a href ="https://www.linkedin.com/in/stanmobitech/">**Stan**</a>
+Made with ❤️ by <a href ="https://www.linkedin.com/in/stanmobitech/">**Stanmobitech**</a>
