@@ -51,7 +51,7 @@ Welcome to the **Yebente** professional portfolio — a dynamic and responsive p
 - Animated intro using CSS keyframes
 - Call-to-action buttons
 
-![Home Section](images/readme/home.png)
+![Home Section](images/home.png)
 
 
 ---
@@ -61,7 +61,7 @@ Welcome to the **Yebente** professional portfolio — a dynamic and responsive p
 - Icons for skill areas (marketing, social media, CV revamp)
 - Responsive layout with skill cards
 
-![About Section](images/readme/about.png)
+![About Section](images/about.png)
 
 ---
 
@@ -70,7 +70,7 @@ Welcome to the **Yebente** professional portfolio — a dynamic and responsive p
 - Iconic cards for each service offered
 - Hover effects and clear typography
 
-![Services Section](images/readme/services.png)
+![Services Section](images/services.png)
 
 ---
 
@@ -79,7 +79,7 @@ Welcome to the **Yebente** professional portfolio — a dynamic and responsive p
 - Overlay effects for project descriptions
 - Organized in a flexible responsive grid
 
-![Portfolio Section](images/readme/portfolio.png)
+![Portfolio Section](images/portfolio.png)
 
 ---
 
@@ -88,7 +88,7 @@ Welcome to the **Yebente** professional portfolio — a dynamic and responsive p
 - Integrated social media links with brand icons
 - Simple form with placeholder values and button styling
 
-![Contact Section](images/readme/contact.png)
+![Contact Section](images/contact.png)
 
 ---
 
@@ -149,11 +149,11 @@ You can reach out through any of the following:
 ## 📸 **Screenshots**
 Replace the following placeholders with real images:
 
-- `images/readme/home.png`
-- `images/readme/about.png`
-- `images/readme/services.png`
-- `images/readme/portfolio.png`
-- `images/readme/contact.png`
+- ![home image](image.png)
+- ![about](about.png)
+- ![services](services.png)
+- ![portfolio](portfolio.png)
+- ![contact](contact.png)
 
 📸 Screenshots help users preview each section before visiting.
 
