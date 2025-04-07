@@ -27,9 +27,11 @@
                 <a href="#services" class="nav-link">Services</a>
                 <a href="#portfolio" class="nav-link">Portfolio</a>
                 <a href="#contact" class="nav-link">Contact</a>
-                <a href="Resume.pdf" download class="nav-link">Resume</a>
+                <a href="Stanley's Resume 2025 (April).pdf" download class="nav-link">Resume</a>
             </nav>
-            <a href="https://www.linkedin.com/in/stanmobitech/" class="btn-hire">Hire Me</a>
+            <a href="https://www.linkedin.com/in/stanmobitech/" target="_blank">
+                <button class="btn-hire" type="button">Hire Me</button>
+            </a>
             <div class="hamburger">
                 <span></span>
                 <span></span>
@@ -148,12 +150,17 @@
                     <a href="https://www.tiktok.com/@5tan_lee" class="social-link" target="_blank"><i class="fab fa-tiktok"></i></a>
                 </div>
             </div>
-            <form class="contact-form">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" required></textarea>
+            <form action="https://formsubmit.co/yebente@gmail.com" method="POST" class="contact-form">
+                <!-- Turn off CAPTCHA -->
+                <input type="hidden" name="_captcha" value="false">
+              
+                <!-- Required fields -->
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+              
                 <button type="submit" class="submit-btn">Send Message</button>
-            </form>
+              </form>              
         </div>
     </section>
 
