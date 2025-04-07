@@ -149,11 +149,11 @@ You can reach out through any of the following:
 ## 📸 **Screenshots**
 Replace the following placeholders with real images:
 
-- ![home image](image.png)
-- ![about](about.png)
-- ![services](services.png)
-- ![portfolio](portfolio.png)
-- ![contact](contact.png)
+- ![home image](images/home.png)
+- ![about](images/about.png)
+- ![services](images/services.png)
+- ![portfolio](images/portfolio.png)
+- ![contact](images/contact.png)
 
 📸 Screenshots help users preview each section before visiting.
 
