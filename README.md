@@ -165,7 +165,7 @@ Feel free to fork this repo, open issues, or contribute suggestions via pull req
 ---
 
 ## ✅ **License**
-© 2024 Yebente. All rights reserved.
+© 2025 Yebente. All rights reserved.
 
 ---
 
