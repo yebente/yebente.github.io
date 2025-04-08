@@ -145,6 +145,8 @@ nav {
     background: linear-gradient(45deg, var(--primary-color), var(--accent-color));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-clip: text; /* for Firefox */
+    color: transparent; /* fallback */
 }
 
 .hero p {
@@ -332,25 +334,31 @@ nav {
 }
 
 /* Contact Section */
+/* 📬 Contact Section Wrapper */
 .contact-section {
     padding: 5rem 5%;
     background-color: var(--background-color);
+    color: var(--text-color);
 }
 
+/* 🧱 Grid Container for Info & Form */
 .contact-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 3rem;
     max-width: 1200px;
     margin: 0 auto;
+    align-items: start;
 }
 
+/* 📌 Contact Info Block */
 .contact-info {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
+/* 📨 Single Contact Detail */
 .contact-item {
     display: flex;
     align-items: center;
@@ -362,6 +370,7 @@ nav {
     color: var(--primary-color);
 }
 
+/* 🌐 Social Media Links */
 .social-links {
     display: flex;
     gap: 1rem;
@@ -370,35 +379,71 @@ nav {
 .social-link {
     color: var(--primary-color);
     font-size: 1.5rem;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .social-link:hover {
     transform: translateY(-5px);
+    color: var(--accent-color);
 }
 
+/* 🧾 Contact Form */
 .contact-form {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-.contact-form input,
-.contact-form textarea {
+/* 🔲 Input Grouping */
+.form-group,
+.form-row {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* 🧱 Responsive Row for Name & Email */
+@media (min-width: 600px) {
+    .form-row {
+        flex-direction: row;
+        gap: 1rem;
+    }
+}
+
+.col {
+    flex: 1;
+}
+
+/* 📝 Input and Textarea Styling */
+.form-control {
     padding: 1rem;
     border: none;
     border-radius: 5px;
-    background: var(--card-bg);
+    background-color: var(--card-bg);
     color: var(--text-color);
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-.contact-form textarea {
+.form-control::placeholder {
+    color: var(--text-color);
+    opacity: 0.7;
+}
+
+.form-control:focus {
+    outline: 2px solid var(--primary-color);
+    background-color: var(--card-bg);
+}
+
+textarea.form-control {
     min-height: 150px;
     resize: vertical;
 }
 
+/* 🚀 Submit Button Styling */
 .submit-btn {
-    padding: 1rem;
+    padding: 1rem 2rem;
     background-color: var(--primary-color);
     color: var(--secondary-color);
     border: none;
@@ -406,6 +451,8 @@ nav {
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
+    align-self: flex-start;
+    font-size: 1rem;
 }
 
 .submit-btn:hover {
