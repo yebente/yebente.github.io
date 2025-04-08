@@ -333,36 +333,44 @@ nav {
     transform: scale(1.1);
 }
 
-/* Contact Section */
-/* 📬 Contact Section Wrapper */
+/* 📬 Contact Section */
 .contact-section {
     padding: 5rem 5%;
     background-color: var(--background-color);
     color: var(--text-color);
 }
 
-/* 🧱 Grid Container for Info & Form */
+.section-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    background: linear-gradient(45deg, var(--primary-color), var(--accent-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* 🧱 Grid for Info and Form */
 .contact-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 3rem;
     max-width: 1200px;
     margin: 0 auto;
-    align-items: start;
+    align-items: flex-start;
 }
 
-/* 📌 Contact Info Block */
+/* 📨 Info Section */
 .contact-info {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-/* 📨 Single Contact Detail */
 .contact-item {
     display: flex;
     align-items: center;
     gap: 1rem;
+    font-size: 1.1rem;
 }
 
 .contact-item i {
@@ -370,10 +378,11 @@ nav {
     color: var(--primary-color);
 }
 
-/* 🌐 Social Media Links */
+/* 🌐 Social Media Icons */
 .social-links {
     display: flex;
     gap: 1rem;
+    margin-top: 1rem;
 }
 
 .social-link {
@@ -387,26 +396,35 @@ nav {
     color: var(--accent-color);
 }
 
-/* 🧾 Contact Form */
-.contact-form {
+/* 🧾 Form Section */
+.container h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
+}
+
+/* 🔲 Contact Form Layout */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-group {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-/* 🔲 Input Grouping */
-.form-group,
 .form-row {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-/* 🧱 Responsive Row for Name & Email */
 @media (min-width: 600px) {
     .form-row {
         flex-direction: row;
-        gap: 1rem;
     }
 }
 
@@ -414,7 +432,7 @@ nav {
     flex: 1;
 }
 
-/* 📝 Input and Textarea Styling */
+/* ✍️ Form Inputs */
 .form-control {
     padding: 1rem;
     border: none;
@@ -433,15 +451,15 @@ nav {
 
 .form-control:focus {
     outline: 2px solid var(--primary-color);
-    background-color: var(--card-bg);
 }
 
+/* 📩 Textarea */
 textarea.form-control {
     min-height: 150px;
     resize: vertical;
 }
 
-/* 🚀 Submit Button Styling */
+/* 🚀 Submit Button */
 .submit-btn {
     padding: 1rem 2rem;
     background-color: var(--primary-color);
@@ -449,10 +467,10 @@ textarea.form-control {
     border: none;
     border-radius: 5px;
     font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    align-self: flex-start;
     font-size: 1rem;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: all 0.3s ease;
 }
 
 .submit-btn:hover {
